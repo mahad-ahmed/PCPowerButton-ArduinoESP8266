@@ -83,7 +83,7 @@ void loop() {
             sendPulse(RESTART_PIN, 350);
         }
         else if(cmd == FORCED_SHUTDOWN) {
-            sendPulse(POWER_PIN, 4020);
+            sendPulse(POWER_PIN, 10000);
         }
     }
 
